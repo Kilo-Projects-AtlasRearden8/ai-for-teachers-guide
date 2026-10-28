@@ -21,6 +21,22 @@ a:visited {
   color: #1f6f3b;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #14532d;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 0 0 8px 0;
+  z-index: 100;
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
 .container {
   max-width: 760px;
   margin: 0 auto;
